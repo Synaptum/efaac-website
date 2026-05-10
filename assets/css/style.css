@@ -1,0 +1,183 @@
+/* =========================
+EFAAC - AGRICULTURAL CONSULTING COMPANY
+CREATED BY: TSEBANG MADUNA(SYNAPTUM TECHNOLOGIES GROUP - SOFTWARE DEVELOPER)
+========================= */
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  overflow-x:hidden;
+  background:#f8f9fa;
+}
+
+.custom-navbar{
+  background:rgba(0,0,0,0.4);
+  transition:0.3s;
+}
+
+.custom-navbar.scrolled{
+  background:#0B5D1E;
+}
+
+.navbar-brand{
+  font-size:1.8rem;
+}
+
+.nav-link{
+  color:white !important;
+  margin-left:15px;
+}
+
+.hero-section{
+  background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1400&auto=format&fit=crop');
+
+  background-size:cover;
+  background-position:center;
+  padding-top:100px;
+}
+
+.hero-img{
+  border-radius:30px;
+  box-shadow:0 15px 40px rgba(0,0,0,0.3);
+}
+
+.section-title{
+  font-weight:700;
+  color:#0B5D1E;
+  margin-bottom:20px;
+}
+
+.service-card{
+  border:none;
+  border-radius:20px;
+  padding:20px;
+  transition:0.4s;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.service-card:hover{
+  transform:translateY(-10px);
+}
+
+.service-icon{
+  font-size:3rem;
+  color:#0B5D1E;
+}
+
+.why-box p{
+  font-size:1.1rem;
+  margin-bottom:20px;
+}
+
+.contact-card{
+  background:white;
+  padding:40px;
+  border-radius:20px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.contact-info{
+  background:#0B5D1E;
+  color:white;
+  padding:40px;
+  border-radius:20px;
+  height:100%;
+}
+
+.contact-info p{
+  margin-bottom:25px;
+  font-size:1.1rem;
+}
+
+.footer{
+  background:#0B5D1E;
+  color:white;
+  padding:60px 0;
+}
+
+.socials i{
+  font-size:1.4rem;
+  cursor:pointer;
+}
+
+.whatsapp-btn{
+  position:fixed;
+  bottom:20px;
+  left:20px;
+  background:#25D366;
+  color:white;
+  width:60px;
+  height:60px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+  font-size:1.8rem;
+  text-decoration:none;
+  z-index:999;
+}
+
+#backToTop{
+  position:fixed;
+  right:20px;
+  bottom:20px;
+  border:none;
+  background:#0B5D1E;
+  color:white;
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  display:none;
+  z-index:999;
+}
+
+.form-control{
+  padding:14px;
+  border-radius:12px;
+}
+
+.btn-success{
+  background:#0B5D1E;
+  border:none;
+}
+
+.btn-success:hover{
+  background:#084417;
+}
+
+@media(max-width:991px){
+
+  .hero-section{
+    text-align:center;
+  }
+
+  .hero-img{
+    margin-top:40px;
+  }
+
+}
+
+@media(max-width:768px){
+
+  .display-3{
+    font-size:2.5rem;
+  }
+
+  .contact-card,
+  .contact-info{
+    padding:30px;
+  }
+
+}
