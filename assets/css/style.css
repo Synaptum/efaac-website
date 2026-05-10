@@ -196,7 +196,30 @@ img{
   border-radius:50%;
   font-size:1.8rem;
   text-decoration:none;
+  animation: pulse 2s infinite;
   z-index:999;
+}
+
+.whatsapp-btn:hover{
+  transform:scale(1.1);
+  transition:0.3s;
+  color:white;
+}
+
+@keyframes pulse{
+
+  0%{
+    box-shadow:0 0 0 0 rgba(37,211,102,0.7);
+  }
+
+  70%{
+    box-shadow:0 0 0 15px rgba(37,211,102,0);
+  }
+
+  100%{
+    box-shadow:0 0 0 0 rgba(37,211,102,0);
+  }
+
 }
 
 #backToTop{
