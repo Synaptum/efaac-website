@@ -14,10 +14,24 @@ CREATED BY: TSEBANG MADUNA(SYNAPTUM TECHNOLOGIES GROUP - SOFTWARE DEVELOPER)
 html{
   scroll-behavior:smooth;
 }
-
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
 body{
   overflow-x:hidden;
   background:#f8f9fa;
+}
+
+img{
+  max-width:100%;
+  height: auto;
+  display: block;
+}
+
+.row{
+  margin-left:0;
+  margin-right:0;
 }
 
 .custom-navbar{
@@ -39,20 +53,31 @@ body{
 }
 
 .hero-section{
-  background:
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background:
     linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
     url('../images/hero-main.jpg') no-repeat;
 
   background-size:cover;
   background-position:center;
+  background-repeat: no-repeat;
   padding-top:100px;
+  padding-bottom: 60px;
 }
 
 .hero-img{
-  border-radius:30px;
-  box-shadow:0 20px 45px rgba(0,0,0,0.35);
-  max-height: 550px;
-  object-fit: cover;
+    width: 100%;
+    max-width: 550px;
+    border-radius:25px;
+    box-shadow:0 20px 45px rgba(0,0,0,0.35);
+    max-height: 550px;
+    object-fit: cover;
+    margin: auto;
 }
 
 .hero-content{
