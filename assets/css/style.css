@@ -41,7 +41,7 @@ body{
 .hero-section{
   background:
     linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-    url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1400&auto=format&fit=crop');
+    url('../images/hero-main.jpg') no-repeat;
 
   background-size:cover;
   background-position:center;
@@ -50,7 +50,19 @@ body{
 
 .hero-img{
   border-radius:30px;
-  box-shadow:0 15px 40px rgba(0,0,0,0.3);
+  box-shadow:0 20px 45px rgba(0,0,0,0.35);
+  max-height: 550px;
+  object-fit: cover;
+}
+
+.hero-content{
+  background: rgba(255,255,255,0.08);
+
+  backdrop-filter: blur(10px);
+
+  padding: 40px;
+
+  border-radius: 25px;
 }
 
 .section-title{
