@@ -1,0 +1,11 @@
+User-agent: *
+
+Allow: /
+
+Disallow: /README.md
+Disallow: /LICENSE
+Disallow: /.git
+Disallow: /.gitignore
+Disallow: /CNAME
+
+Sitemap: https://efaac.co.za/sitemap.xml
