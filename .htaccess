@@ -51,3 +51,6 @@ AddOutputFilterByType DEFLATE application/javascript
 # =====================================
 
 Options -Indexes
+
+
+RedirectMatch 404 /\.git

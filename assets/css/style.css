@@ -88,11 +88,29 @@ img{
   margin-left:15px;
 }
 
+.nav-link.active{
+  color:#ede20f !important;
+  font-weight:bold;
+  
+}
+
 .nav-logo{
   height:100px;
   width:auto;
 
   object-fit:contain;
+}
+
+.hero-bg-home{
+  background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url('../images/hero-main.webp') no-repeat;
+}
+
+.hero-bg-about{
+  background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url('../images/hero-about.webp') no-repeat;
 }
 
 .hero-section{
@@ -102,15 +120,11 @@ img{
     display: flex;
     align-items: center;
     overflow: hidden;
-    background:
-    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-    url('../images/hero-main.webp') no-repeat;
-
-  background-size:cover;
-  background-position:center;
-  background-repeat: no-repeat;
-  padding-top:100px;
-  padding-bottom: 60px;
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding-top:100px;
+    padding-bottom: 60px;
 }
 
 .hero-img{
