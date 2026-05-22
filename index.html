@@ -18,7 +18,7 @@ CREATED BY: TSEBANG MADUNA(SYNAPTUM TECHNOLOGIES GROUP - SOFTWARE DEVELOPER)
   <meta property="og:type" content="website">
   <meta name="author" content="Tsebang Maduna - Synaptum Technologies Group"/>
 
-  <title>EFAAC - | Agricultural Consulting & Farming Solutions South Africa</title>
+  <title>Agricultural Consulting & Farming Solutions South Africa | EFAAC</title>
   <meta name="google-site-verification" content="wI558lH-Whgxu8O9InAIwpIj4hAvf5mUungVpwWTqnw" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logo/favicon.png">
   <link rel="apple-touch-icon" href="assets/images/logo/favicon.png">
@@ -128,7 +128,7 @@ HERO SECTION
 
         <p class="lead mb-4">
           Sustainable farming solutions, agribusiness support,
-          and innovative agricultural consulting for modern farmers.
+          and innovative agricultural consulting for modern farmers in South Africa.
         </p>
 
         <div class="d-flex flex-wrap gap-3">
@@ -187,8 +187,8 @@ ABOUT SECTION
         </h2>
 
         <p class="lead">
-          EFAAC is a professional agricultural consulting company committed
-          to empowering farmers, agribusinesses, and communities.
+          Elucidation For All AgriConsultants (EFAAC) is a professional agricultural consulting company committed
+          to empowering farmers, agribusinesses, and communities in South Africa.
         </p>
 
         <p>
@@ -199,7 +199,7 @@ ABOUT SECTION
 
         <div class="row mt-4">
 
-          <div class="col-6">
+          <!-- <div class="col-6">
 
             <h3 class="fw-bold text-success">10+</h3>
             <p>Years Experience</p>
@@ -211,7 +211,7 @@ ABOUT SECTION
             <h3 class="fw-bold text-success">500+</h3>
             <p>Farmers Supported</p>
 
-          </div>
+          </div> -->
 
         </div>
 
@@ -484,25 +484,29 @@ CONTACT SECTION
             Send Us a Message
           </h2>
 
-          <form>
+          <form action="https://formspree.io/f/xaqkjabe" method="post">
 
             <div class="row">
 
               <div class="col-md-6 mb-3">
 
                 <input
+                  name="Full Name"
                   type="text"
                   class="form-control"
-                  placeholder="Full Name">
+                  placeholder="Full Name"
+                  required>
 
               </div>
 
               <div class="col-md-6 mb-3">
 
                 <input
+                  name="Email"
                   type="email"
                   class="form-control"
-                  placeholder="Email Address">
+                  placeholder="Email Address"
+                  required>
 
               </div>
 
@@ -511,22 +515,27 @@ CONTACT SECTION
             <div class="mb-3">
 
               <input
+                name="Subject"
                 type="text"
                 class="form-control"
-                placeholder="Subject">
+                placeholder="Subject"
+                required>
 
             </div>
 
             <div class="mb-3">
 
               <textarea
+                name="Message"
                 class="form-control"
                 rows="5"
-                placeholder="Your Message"></textarea>
+                placeholder="Your Message"
+                minlength="10"
+                required></textarea>
 
             </div>
 
-            <button class="btn btn-success px-5">
+            <button type="submit" class="btn btn-success px-5">
               Send Message
             </button>
 
